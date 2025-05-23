@@ -1,0 +1,7 @@
+---
+title: "Contact"
+---
+
+You can reach me at: [akewak@example.com](mailto:akewak@example.com)
+
+Or message me via [LinkedIn](https://linkedin.com/in/yourname)

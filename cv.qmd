@@ -1,0 +1,12 @@
+---
+title: "CV"
+---
+
+[Download PDF](cv/akewak-jeba-cv.pdf)
+
+## Summary
+Short professional summary here...
+
+## Education
+- MSc in Computer Science
+- BSc in Computer Engineering

@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Akewak Jeba"
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: projects.qmd
+        text: Projects
+      - href: blog.qmd
+        text: Blog
+      - href: cv.qmd
+        text: CV
+
+  page-footer:
+    left: "© 2025 Akewak Jeba"
+    right: |
+      Built with [Quarto](https://quarto.org) • <a href="mailto:akewak84@gmail.com">Contact</a>
+
+format:
+  html:
+    include-in-header: styles/tailwind-header.html
+    css: styles/custom.css
+

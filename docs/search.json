@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "Hi, I’m Akewak Jeba\n\n\nData scientist, researcher, and creator of tools for culture & science.\n\n\n\n\n\n\n  \n\n\nPassionate about data, open science,microbiome and cultural heritage.\n\n\n\nSelected Projects\n\n\n\nExploring Finnish Literature with Fennica + Finna APIs\n\n\nMicrobiome modeling using AI + graph learning\n\n\nData harmonization tools for surveys & culture"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "How I Built My Website with Quarto + Tailwind",
+    "section": "",
+    "text": "In this post I describe how I used Quarto, Tailwind CSS, and Font Awesome to build a personal-professional site.\n\nHow I Built My Website"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Using Finna + Fennica APIs to analyze trends in Finnish publishing from 1488–today.\n\n\n\nSpatiotemporal graph learning for antimicrobial resistance gene tracking.\n\n\n\nTools for survey data comparison and integration using DDI-compliant structures."
+  },
+  {
+    "objectID": "projects.html#selected-projects",
+    "href": "projects.html#selected-projects",
+    "title": "Projects",
+    "section": "",
+    "text": "Using Finna + Fennica APIs to analyze trends in Finnish publishing from 1488–today.\n\n\n\nSpatiotemporal graph learning for antimicrobial resistance gene tracking.\n\n\n\nTools for survey data comparison and integration using DDI-compliant structures."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "You can reach me at: akewak@example.com\nOr message me via LinkedIn"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Download PDF"
+  },
+  {
+    "objectID": "cv.html#summary",
+    "href": "cv.html#summary",
+    "title": "CV",
+    "section": "Summary",
+    "text": "Summary\nShort professional summary here…"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "CV",
+    "section": "Education",
+    "text": "Education\n\nMSc in Computer Science\nBSc in Computer Engineering"
+  }
+]

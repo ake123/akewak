@@ -1,0 +1,36 @@
+---
+title: "Welcome"
+---
+
+```{=html}
+<div class="max-w-2xl mx-auto mt-20 px-6 text-center">
+  <h1 class="text-4xl font-semibold text-gray-900 mb-4">Hi, I'm Akewak Jeba</h1>
+  <p class="text-lg text-gray-600">
+    Data scientist, researcher, and creator of tools for culture & science.
+  </p>
+</div>
+
+<div class="max-w-2xl mx-auto mt-12 text-center">
+  <img src="images/ake.jpeg" class="mx-auto mb-6 w-32 h-32 rounded-full shadow-md" alt="Aki J G">
+</div>
+
+<div class="mt-6 flex justify-center space-x-4 text-gray-600 text-xl">
+  <a href="mailto:akewak84@gmail.com"><i class="fas fa-envelope"></i></a>
+  <a href="https://github.com/ake123" target="_blank"><i class="fab fa-github"></i></a>
+  <a href="https://www.linkedin.com/in/akewak-j-ab82b528/" target="_blank"><i class="fab fa-linkedin"></i></a>
+</div>
+
+<p class="text-sm text-gray-500 mt-4">
+  Passionate about data, open science,microbiome and cultural heritage.
+</p>
+
+
+
+<div class="max-w-2xl mx-auto mt-12 px-6">
+  <h2 class="text-2xl font-semibold mb-4">Selected Projects</h2>
+  <ul class="list-disc list-inside text-gray-700 text-base">
+    <li><a href="projects.qmd#finnish-bibliography">Exploring Finnish Literature with Fennica + Finna APIs</a></li>
+    <li><a href="projects.qmd#microbiome-ai">Microbiome modeling using AI + graph learning</a></li>
+    <li><a href="projects.qmd#harmonization-tools">Data harmonization tools for surveys & culture</a></li>
+  </ul>
+</div>
