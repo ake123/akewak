@@ -1,0 +1,20 @@
+---
+title: "Building an R API Client for Open Data"
+date: 2025-05-15
+categories: [r, api, open-data]
+---
+
+In this post, I describe how I built a minimal R package to interface with an open data API.
+
+## Motivation
+
+Many public APIs lack R bindings. Wrapping them in functions using `httr2` and `jsonlite` makes them accessible for analysis.
+
+## Steps
+
+1. Use `usethis::create_package()`
+2. Add API wrapper functions
+3. Document with `roxygen2`
+4. Publish to GitHub and document with `pkgdown`
+
+This approach is scalable and reproducible.

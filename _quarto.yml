@@ -14,8 +14,8 @@ website:
         text: Projects
       - href: blog.qmd
         text: Blog
-      - href: cv.qmd
-        text: CV
+      - href: Resume.qmd
+        text: Resume
 
   page-footer:
     left: "© 2025 Akewak Jeba"

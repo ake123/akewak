@@ -2,9 +2,16 @@
   {
     "objectID": "blog.html",
     "href": "blog.html",
-    "title": "How I Built My Website with Quarto + Tailwind",
+    "title": "Blog",
     "section": "",
-    "text": "In this post I describe how I used Quarto, Tailwind CSS, and Font Awesome to build a personal-professional site.\n\nHow I Built My Website"
+    "text": "Welcome to my blog. Here are my latest posts:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHow I Built My Website with Quarto + Tailwind\n\n\n\n\n\n\n\n\n\n\n\nMay 23, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nBuilding an R API Client for Open Data\n\n\n\n\n\n\n\n\n\n\n\nMay 15, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nExploring Finnish Cultural Metadata with R and Finna API\n\n\n\n\n\n\n\n\n\n\n\nMay 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nGraph Learning for Microbiome Research\n\n\n\n\n\n\n\n\n\n\n\nApr 27, 2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Akewak Jeba",
+    "section": "",
+    "text": "Hello! My name is Akewak jeba and I am a researcher passionate about microbes, bioinformatics, humanities and open science.\nI’m currently a researcher at the Turku University at Turku Data Science group\nI have contributed to different projects in the development of different R package tools in Microbiome and humanities.\nYou can find more information about my work, what I’m writing about, and how to get in contact with me!"
   },
   {
     "objectID": "contact.html",
@@ -12,13 +19,6 @@
     "title": "Contact",
     "section": "",
     "text": "You can reach me at: akewak@example.com\nOr message me via LinkedIn"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
   },
   {
     "objectID": "projects.html",
@@ -35,31 +35,59 @@
     "text": "Using Finna + Fennica APIs to analyze trends in Finnish publishing from 1488–today.\n\n\n\nSpatiotemporal graph learning for antimicrobial resistance gene tracking.\n\n\n\nTools for survey data comparison and integration using DDI-compliant structures."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Hi, I’m Akewak Jeba\n\n\nData scientist, researcher, and creator of tools for culture & science.\n\n\n\n\n\n\n  \n\n\nPassionate about data, open science,microbiome and cultural heritage.\n\n\n\nSelected Projects\n\n\n\nExploring Finnish Literature with Fennica + Finna APIs\n\n\nMicrobiome modeling using AI + graph learning\n\n\nData harmonization tools for surveys & culture"
+    "text": "About this site"
   },
   {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "CV",
+    "objectID": "posts/quarto-tailwind.html",
+    "href": "posts/quarto-tailwind.html",
+    "title": "How I Built My Website with Quarto + Tailwind",
     "section": "",
-    "text": "Download PDF"
+    "text": "In this post, I walk through how I used Quarto, Tailwind CSS, and Font Awesome to build a personal-professional website."
   },
   {
-    "objectID": "cv.html#summary",
-    "href": "cv.html#summary",
-    "title": "CV",
-    "section": "Summary",
-    "text": "Summary\nShort professional summary here…"
+    "objectID": "posts/quarto-tailwind.html#setting-up-quarto",
+    "href": "posts/quarto-tailwind.html#setting-up-quarto",
+    "title": "How I Built My Website with Quarto + Tailwind",
+    "section": "1. Setting Up Quarto",
+    "text": "1. Setting Up Quarto\nStart by installing Quarto and initializing your website:\n```bash quarto create-project mysite –type website cd mysite"
   },
   {
-    "objectID": "cv.html#education",
-    "href": "cv.html#education",
-    "title": "CV",
-    "section": "Education",
-    "text": "Education\n\nMSc in Computer Science\nBSc in Computer Engineering"
+    "objectID": "posts/finna-r-blog.html",
+    "href": "posts/finna-r-blog.html",
+    "title": "Exploring Finnish Cultural Metadata with R and Finna API",
+    "section": "",
+    "text": "The Finna API gives access to rich cultural metadata from Finnish libraries and museums.\nUsing the finna R package, I queried metadata for:\n\nBooks on the microbiome\nMusic archives\nLocal history collections\n\nCombining finna::search_finna() with tidyverse tools made it easy to visualize and analyze trends."
+  },
+  {
+    "objectID": "posts/microbiome-graph-learning.html",
+    "href": "posts/microbiome-graph-learning.html",
+    "title": "Graph Learning for Microbiome Research",
+    "section": "",
+    "text": "Can we model microbial interactions as graphs? Absolutely.\nIn this post, I explore the idea of using Graph Neural Networks (GNNs) to study microbiome dynamics.\n\nNodes: microbial taxa\nEdges: co-occurrence or correlation\nFeatures: abundance, function, location\n\nUsing libraries like torch and igraph, this can reveal community structure and functional roles."
+  },
+  {
+    "objectID": "posts/build-r-api.html",
+    "href": "posts/build-r-api.html",
+    "title": "Building an R API Client for Open Data",
+    "section": "",
+    "text": "In this post, I describe how I built a minimal R package to interface with an open data API."
+  },
+  {
+    "objectID": "posts/build-r-api.html#motivation",
+    "href": "posts/build-r-api.html#motivation",
+    "title": "Building an R API Client for Open Data",
+    "section": "Motivation",
+    "text": "Motivation\nMany public APIs lack R bindings. Wrapping them in functions using httr2 and jsonlite makes them accessible for analysis."
+  },
+  {
+    "objectID": "posts/build-r-api.html#steps",
+    "href": "posts/build-r-api.html#steps",
+    "title": "Building an R API Client for Open Data",
+    "section": "Steps",
+    "text": "Steps\n\nUse usethis::create_package()\nAdd API wrapper functions\nDocument with roxygen2\nPublish to GitHub and document with pkgdown\n\nThis approach is scalable and reproducible."
   }
 ]
