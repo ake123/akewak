@@ -1,3 +1,9 @@
 body {
   font-family: 'Inter', sans-serif;
 }
+
+/* styles/custom.css */
+a {
+  color: #1a0dab;           /* Classic blue link color */
+  text-decoration: underline;
+}

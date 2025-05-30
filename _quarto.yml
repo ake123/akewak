@@ -8,8 +8,8 @@ website:
     right:
       - href: index.qmd
         text: Home
-      - href: about.qmd
-        text: About
+      # - href: about.qmd
+      #   text: About
       - href: projects.qmd
         text: Projects
       - href: blog.qmd
@@ -26,4 +26,9 @@ format:
   html:
     include-in-header: styles/tailwind-header.html
     css: styles/custom.css
+    toc: true
 
+editor: visual
+
+resources:
+  - CNAME
