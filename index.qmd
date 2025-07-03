@@ -21,7 +21,7 @@ about:
       href: https://www.linkedin.com/in/akewak-j-ab82b528/
 ---
 
-\`\`\`{=html}
+```{=html}
 
 ::: {.max-w-3xl .mx-auto .mt-12 .px-6 .text-gray-800 .leading-relaxed}
 <h1 class="text-4xl font-bold mb-4 text-center text-gray-900">
