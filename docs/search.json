@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Welcome to my blog. Here are my latest posts:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTracing the Evolution of Knowledge Through Bibliographic Data Science\n\n\n\n\n\n\n\n\nJul 3, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nBuilding an R API Client for Open Data\n\n\n\n\n\n\n\n\nMay 15, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nExploring Finnish Cultural Metadata with R and Finna API\n\n\n\n\n\n\n\n\nMay 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nGraph Learning for Microbiome Research\n\n\n\n\n\n\n\n\nApr 27, 2025\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to my blog. Here are my latest posts:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTracing the Evolution of Knowledge Through Bibliographic Data Science\n\n\n\n\n\n\n\n\nJul 3, 2025\n\n\nAkewak Jeba\n\n\n\n\n\n\n\n\n\n\n\n\nLimROTS: A New Tool for Reliable Differential Expression Analysis in Proteomics\n\n\n\n\n\n\n\n\nJun 3, 2025\n\n\nAkewak Jeba\n\n\n\n\n\n\n\n\n\n\n\n\nBuilding the Foundation for Our eCommerce Platform\n\n\nA behind-the-scenes look at our scalable, flexible eCommerce project\n\n\n\n\n\nMay 3, 2025\n\n\nAkewak Jeba\n\n\n\n\n\n\n\n\n\n\n\n\nGraph Learning for Microbiome Research\n\n\n\n\n\n\n\n\nApr 27, 2025\n\n\nAkewak Jeba\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -21,11 +21,11 @@
     "text": "You can reach me at: akewak@example.com\nOr message me via LinkedIn"
   },
   {
-    "objectID": "posts/quarto-tailwind.html",
-    "href": "posts/quarto-tailwind.html",
-    "title": "Tracing the Evolution of Knowledge Through Bibliographic Data Science",
+    "objectID": "posts/LimROTS.html",
+    "href": "posts/LimROTS.html",
+    "title": "LimROTS: A New Tool for Reliable Differential Expression Analysis in Proteomics",
     "section": "",
-    "text": "Tracing the Evolution of Knowledge Through Bibliographic Data Science\nThe transformation of European book culture between 1500 and 1800 offers a remarkable window into the evolution of knowledge, language, and public discourse. Our ongoing research addresses this transformation by combining large-scale bibliographic metadata with systematic data analysis, building upon national bibliographies and extensive catalog collections.\nAt the heart of this work lies the concept of bibliographic data science: applying reproducible, quantitative methods to understand long-term publishing trends. By integrating millions of records from national libraries—including the Finnish and Swedish bibliographies, the English Short-Title Catalogue (ESTC), and the Heritage of the Printed Book Database—we are creating an unprecedented foundation for historical research across Europe.\nThe scale of this project requires meticulous harmonisation of metadata, from standardising publication places and document formats to enriching missing information with external sources. This process enables researchers to trace the spread of publishing centres, the rise of vernacular languages, and material aspects such as book formats or paper consumption.\nFor example, our studies reveal how Finnish book production, which began modestly in Turku in 1640, expanded steadily during the Grand Duchy era under Russian rule. Similarly, we observe the significant role of octavo-format books in the 18th century, reflecting broader shifts toward portability and access to printed material. These developments were not isolated—they unfolded alongside major political and cultural changes, such as the introduction of freedom of print in Sweden (1766) or the foundation of universities across the region.\nBeyond quantifying publication trends, our research addresses structural challenges in the bibliographical landscape. National bibliographies have traditionally operated within fragmented standards and cataloguing practices. By promoting open data, systematic quality monitoring, and shared analytical tools, we aim to create a more integrated, collaborative infrastructure that benefits both historical research and cultural heritage preservation.\nThis work contributes to the broader discussion on how digital resources, when handled with careful methodological control, can illuminate overlooked historical processes. It complements more qualitative scholarship by providing large-scale, verifiable perspectives on knowledge production—whether in early modern Europe or future global research efforts.\nFor more information, see publications from the Helsinki Computational History Group or the collaborative work within DARIAH’s Bibliodata Working Group, which continues to advance shared agendas for research infrastructures and public data stakeholders."
+    "text": "Differential expression analysis is at the heart of modern omics research, helping scientists pinpoint proteins or genes that distinguish one condition from another, such as disease versus healthy states. However, analyzing complex proteomics datasets remains challenging, especially when experiments include technical variation, batch effects, or biological covariates like age and sex.\nTo address these challenges, our team developed LimROTS, an R/Bioconductor package that combines two powerful statistical approaches: the flexible linear modeling and empirical Bayes method from limma, and the reproducibility-optimized ranking from ROTS. This hybrid design allows LimROTS to handle complex experimental designs while improving the reliability of differential expression results.\nIn rigorous benchmarking using 21 gold standard proteomics datasets, LimROTS consistently outperformed widely used tools such as limma, ROTS, MSstats, DEqMS, DEP, SAM, ANOVA, and t-tests. We also tested LimROTS on real-world clinical data from Alzheimer’s disease patients. The method identified biologically meaningful protein changes with improved precision, even in the presence of technical variability.\nLimROTS is openly available through Bioconductor and is designed to integrate seamlessly with existing omics workflows. Its ability to manage complex designs and enhance reproducibility makes it a promising tool not only for proteomics but potentially for transcriptomics and metabolomics as well.\nExplore LimROTS at: https://bioconductor.org/packages/LimROTS"
   },
   {
     "objectID": "posts/microbiome-graph-learning.html",
@@ -35,39 +35,60 @@
     "text": "Can we model microbial interactions as graphs? Absolutely.\nIn this post, I explore the idea of using Graph Neural Networks (GNNs) to study microbiome dynamics.\n\nNodes: microbial taxa\nEdges: co-occurrence or correlation\nFeatures: abundance, function, location\n\nUsing libraries like torch and igraph, this can reveal community structure and functional roles."
   },
   {
-    "objectID": "posts/finna-r-blog.html",
-    "href": "posts/finna-r-blog.html",
-    "title": "Exploring Finnish Cultural Metadata with R and Finna API",
+    "objectID": "posts/Bibliographic_Data_Science.html",
+    "href": "posts/Bibliographic_Data_Science.html",
+    "title": "Tracing the Evolution of Knowledge Through Bibliographic Data Science",
     "section": "",
-    "text": "The Finna API gives access to rich cultural metadata from Finnish libraries and museums.\nUsing the finna R package, I queried metadata for:\n\nBooks on the microbiome\nMusic archives\nLocal history collections\n\nCombining finna::search_finna() with tidyverse tools made it easy to visualize and analyze trends."
+    "text": "The transformation of European book culture between 1500 and 1800 offers a remarkable window into the evolution of knowledge, language, and public discourse. Our ongoing research addresses this transformation by combining large-scale bibliographic metadata with systematic data analysis, building upon national bibliographies and extensive catalog collections.\nAt the heart of this work lies the concept of bibliographic data science: applying reproducible, quantitative methods to understand long-term publishing trends. By integrating millions of records from national libraries—including the Finnish and Swedish bibliographies, the English Short-Title Catalogue (ESTC), and the Heritage of the Printed Book Database—we are creating an unprecedented foundation for historical research across Europe.\nThe scale of this project requires meticulous harmonisation of metadata, from standardising publication places and document formats to enriching missing information with external sources. This process enables researchers to trace the spread of publishing centres, the rise of vernacular languages, and material aspects such as book formats or paper consumption.\nFor example, our studies reveal how Finnish book production, which began modestly in Turku in 1640, expanded steadily during the Grand Duchy era under Russian rule. Similarly, we observe the significant role of octavo-format books in the 18th century, reflecting broader shifts toward portability and access to printed material. These developments were not isolated—they unfolded alongside major political and cultural changes, such as the introduction of freedom of print in Sweden (1766) or the foundation of universities across the region.\nBeyond quantifying publication trends, our research addresses structural challenges in the bibliographical landscape. National bibliographies have traditionally operated within fragmented standards and cataloguing practices. By promoting open data, systematic quality monitoring, and shared analytical tools, we aim to create a more integrated, collaborative infrastructure that benefits both historical research and cultural heritage preservation.\nThis work contributes to the broader discussion on how digital resources, when handled with careful methodological control, can illuminate overlooked historical processes. It complements more qualitative scholarship by providing large-scale, verifiable perspectives on knowledge production—whether in early modern Europe or future global research efforts.\nFor more information, see publications from the Helsinki Computational History Group or the collaborative work within DARIAH’s Bibliodata Working Group, which continues to advance shared agendas for research infrastructures and public data stakeholders."
   },
   {
-    "objectID": "posts/build-r-api.html",
-    "href": "posts/build-r-api.html",
-    "title": "Building an R API Client for Open Data",
+    "objectID": "posts/eCommerce.html",
+    "href": "posts/eCommerce.html",
+    "title": "Building the Foundation for Our eCommerce Platform",
     "section": "",
-    "text": "In this post, I describe how I built a minimal R package to interface with an open data API."
+    "text": "In today’s digital economy, having a seamless, scalable, and secure eCommerce platform isn’t just a luxury—it’s essential. Our latest project is all about building a complete, end-to-end eCommerce solution that empowers businesses and customers with an effortless online shopping experience.\nIn this post, I’ll walk you through what we’re building, how we’re approaching it, and the technologies driving this project.\n\n\n\nThe need for reliable eCommerce infrastructure continues to grow, especially for independent brands, local businesses, and specialized products. Our project is designed to:\n\n✅ Provide a flexible, customizable online storefront\n\n✅ Integrate secure payment systems with minimal friction\n\n✅ Support product catalogs, order management, and user accounts\n\n✅ Ensure SEO-friendly URLs, efficient performance, and mobile responsiveness\n\n✅ Lay the groundwork for future enhancements like analytics, marketing automation, and multilingual support\n\nWe’re not just building another webshop—we’re building a platform ready to grow with your business.\n\n\n\n\nBehind the scenes, we’re combining proven tools and modern development practices to create a robust, maintainable system:\n🔧 Key Technologies\n\nDrupal Commerce — The core of our storefront, combining content management with commerce functionality\n\nPathauto & URL Aliases — Automating clean, SEO-friendly URLs for products, stores, and more\n\nCustom Backend Features — Product management, order workflows, and future extensibility\n\nPayment Gateway Integration — Secure, flexible transactions with multiple provider support\n\nResponsive Frontend — Optimized across devices, ensuring a great mobile and desktop experience\n\n💻 Development Best Practices\n\nVersion control with Git\n\nAutomated deployments\n\nContainerization with Docker\n\nModular, scalable code structure\n\n\n\n\n\nWe’ve already achieved some major milestones:\n✅ Drupal Commerce setup and configuration\n✅ Product catalog structure established\n✅ URL aliases generated for products, stores, and key content\n✅ Admin workflows optimized for store managers\n✅ Local development and testing environments configured\nNext Steps\n\n🚀 Frontend polishing for a branded, intuitive storefront\n\n🛠️ Extending order processing and payment features\n\n📈 Adding analytics and performance monitoring\n\n🔒 Security enhancements and GDPR compliance\n\n\n\n\n\nOur long-term vision goes beyond transactions. We’re creating an eCommerce platform focused on building relationships:\n\nPersonalized shopping experiences\n\nMarketing tool integration\n\nSocial sharing and community engagement\n\nScalable architecture for future growth\n\nWe believe eCommerce should connect brands with their audience, not just process orders.\n\n\n\n\nThis project reflects our team’s commitment to delivering high-quality, tailored eCommerce solutions that adapt to real-world needs.\nStay tuned for more updates as we bring this platform to life.\nInterested in collaborating or sharing feedback? Don’t hesitate to reach out!"
   },
   {
-    "objectID": "posts/build-r-api.html#motivation",
-    "href": "posts/build-r-api.html#motivation",
-    "title": "Building an R API Client for Open Data",
-    "section": "Motivation",
-    "text": "Motivation\nMany public APIs lack R bindings. Wrapping them in functions using httr2 and jsonlite makes them accessible for analysis."
+    "objectID": "posts/eCommerce.html#why-this-project",
+    "href": "posts/eCommerce.html#why-this-project",
+    "title": "Building the Foundation for Our eCommerce Platform",
+    "section": "",
+    "text": "The need for reliable eCommerce infrastructure continues to grow, especially for independent brands, local businesses, and specialized products. Our project is designed to:\n\n✅ Provide a flexible, customizable online storefront\n\n✅ Integrate secure payment systems with minimal friction\n\n✅ Support product catalogs, order management, and user accounts\n\n✅ Ensure SEO-friendly URLs, efficient performance, and mobile responsiveness\n\n✅ Lay the groundwork for future enhancements like analytics, marketing automation, and multilingual support\n\nWe’re not just building another webshop—we’re building a platform ready to grow with your business."
   },
   {
-    "objectID": "posts/build-r-api.html#steps",
-    "href": "posts/build-r-api.html#steps",
-    "title": "Building an R API Client for Open Data",
-    "section": "Steps",
-    "text": "Steps\n\nUse usethis::create_package()\nAdd API wrapper functions\nDocument with roxygen2\nPublish to GitHub and document with pkgdown\n\nThis approach is scalable and reproducible."
+    "objectID": "posts/eCommerce.html#the-tech-stack-powering-our-ecommerce-vision",
+    "href": "posts/eCommerce.html#the-tech-stack-powering-our-ecommerce-vision",
+    "title": "Building the Foundation for Our eCommerce Platform",
+    "section": "",
+    "text": "Behind the scenes, we’re combining proven tools and modern development practices to create a robust, maintainable system:\n🔧 Key Technologies\n\nDrupal Commerce — The core of our storefront, combining content management with commerce functionality\n\nPathauto & URL Aliases — Automating clean, SEO-friendly URLs for products, stores, and more\n\nCustom Backend Features — Product management, order workflows, and future extensibility\n\nPayment Gateway Integration — Secure, flexible transactions with multiple provider support\n\nResponsive Frontend — Optimized across devices, ensuring a great mobile and desktop experience\n\n💻 Development Best Practices\n\nVersion control with Git\n\nAutomated deployments\n\nContainerization with Docker\n\nModular, scalable code structure"
+  },
+  {
+    "objectID": "posts/eCommerce.html#progress-so-far",
+    "href": "posts/eCommerce.html#progress-so-far",
+    "title": "Building the Foundation for Our eCommerce Platform",
+    "section": "",
+    "text": "We’ve already achieved some major milestones:\n✅ Drupal Commerce setup and configuration\n✅ Product catalog structure established\n✅ URL aliases generated for products, stores, and key content\n✅ Admin workflows optimized for store managers\n✅ Local development and testing environments configured\nNext Steps\n\n🚀 Frontend polishing for a branded, intuitive storefront\n\n🛠️ Extending order processing and payment features\n\n📈 Adding analytics and performance monitoring\n\n🔒 Security enhancements and GDPR compliance"
+  },
+  {
+    "objectID": "posts/eCommerce.html#looking-ahead",
+    "href": "posts/eCommerce.html#looking-ahead",
+    "title": "Building the Foundation for Our eCommerce Platform",
+    "section": "",
+    "text": "Our long-term vision goes beyond transactions. We’re creating an eCommerce platform focused on building relationships:\n\nPersonalized shopping experiences\n\nMarketing tool integration\n\nSocial sharing and community engagement\n\nScalable architecture for future growth\n\nWe believe eCommerce should connect brands with their audience, not just process orders."
+  },
+  {
+    "objectID": "posts/eCommerce.html#final-thoughts",
+    "href": "posts/eCommerce.html#final-thoughts",
+    "title": "Building the Foundation for Our eCommerce Platform",
+    "section": "",
+    "text": "This project reflects our team’s commitment to delivering high-quality, tailored eCommerce solutions that adapt to real-world needs.\nStay tuned for more updates as we bring this platform to life.\nInterested in collaborating or sharing feedback? Don’t hesitate to reach out!"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Akewak Jeba",
     "section": "",
-    "text": "👋 Hello, I’m Akewak Jeba\n\n\nA data scientist, open science advocate, and tool builder working at the crossroads of microbiome research and the digital humanities. With a background in computer science and a passion for reproducible science, I design and develop software tools that help uncover meaning from complex data.\n\n\n🌍 What I’m working on\n\n\n\nProject researcher at University of Turku, with the Turku Data Science Group.\n\n\nAuthor and maintainer of the finna R package for cultural heritage metadata.\n\n\nContributor to the Miaverse microbiome analysis suite.\n\n\nWorked on the Fennica and OpenMuse projects (bibliographic and music heritage).\n\n\n\n\n🛠️ Tools & Technologies\n\n\nI work with technologies like R, Python, Docker, Flask, Quarto,cloud and HPC tools like CSC’s Rahti, Allas, AWS and google cloud. Whether modeling microbial networks or building APIs for cultural metadata, I enjoy bridging science, software, and creativity.\n\n\nTech Stack: R, Python, SQL, Flask, Quarto, Docker, AWS, Rahti, GitHub Actions\n\n\n📬 Want to learn more?\n\n\nExplore my projects, read my blog, or get in touch!"
+    "text": "👋 Hello, I’m Akewak Jeba\n\n\nA data scientist, open science advocate, and tool builder working at the crossroads of microbiome research and the digital humanities. With a background in computer science and a passion for reproducible science, I design and develop software tools that help uncover meaning from complex data.\n\n\n🌍 What I’m working on\n\n\n\nProject researcher at University of Turku, with the Turku Data Science Group.\n\n\nAuthor and maintainer of the finna R package for cultural heritage metadata.\n\n\nContributor to the Miaverse microbiome analysis suite.\n\n\nWorking on the Fennica and Finna and OpenMuse projects (bibliographic and music projects).\n\n\n\n\n🛠️ Tools & Technologies\n\n\nI work with technologies like R, Python, Docker, Flask, Quarto,cloud and HPC tools like CSC’s Rahti, Allas, AWS and google cloud. Whether modeling microbial networks or building APIs for cultural metadata, I enjoy bridging science, software, and creativity.\n\n\nTech Stack: R, Quarto, Python, SQL, Flask, Javascript, Docker, AWS, Supercomputing environments, GitHub Actions, LAMP & MERN stacks\n\n\n📬 Want to learn more?\n\n\nExplore my projects, read my blog, or get in touch!"
   },
   {
     "objectID": "projects.html",

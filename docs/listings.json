@@ -2,9 +2,9 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/posts/quarto-tailwind.html",
-      "/posts/build-r-api.html",
-      "/posts/finna-r-blog.html",
+      "/posts/Bibliographic_Data_Science.html",
+      "/posts/LimROTS.html",
+      "/posts/eCommerce.html",
       "/posts/microbiome-graph-learning.html"
     ]
   }
