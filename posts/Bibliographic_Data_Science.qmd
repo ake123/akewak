@@ -1,10 +1,14 @@
 ---
 title: "Tracing the Evolution of Knowledge Through Bibliographic Data Science"
 date: 2025-07-3
+author: "Akewak Jeba"
 categories: [R, cultural-heritage, finna, Biblographic datascience]
+format:
+  html:
+    toc: true
+    toc-depth: 2
 ---
 
-Tracing the Evolution of Knowledge Through Bibliographic Data Science
 
 The transformation of European book culture between 1500 and 1800 offers a remarkable window into the evolution of knowledge, language, and public discourse. Our ongoing research addresses this transformation by combining large-scale bibliographic metadata with systematic data analysis, building upon national bibliographies and extensive catalog collections.
 

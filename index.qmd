@@ -50,7 +50,7 @@ A <strong>data scientist</strong>, <strong>open science advocate</strong>, and <
 
 <li>Contributor to the <a href="https://bioconductor.org/packages/miaverse" class="text-blue-600 underline">Miaverse</a> microbiome analysis suite.</li>
 
-<li>Worked on the <a href="https://fennica.linneanet.fi/" class="text-blue-600 underline">Fennica</a> and OpenMuse projects (bibliographic and music heritage).</li>
+<li>Working on the <a href="https://fennica.linneanet.fi/" class="text-blue-600 underline">Fennica and Finna</a> and OpenMuse projects (bibliographic and music projects).</li>
 
 <!-- <li>Deputy Secretary of <strong>CODATA Finland</strong>.</li> -->
 
@@ -70,7 +70,7 @@ I work with technologies like <code>R</code>, <code>Python</code>, <code>Docker<
 
 <p class="text-lg mb-6">
 
-<strong>Tech Stack:</strong> R, Python, SQL, Flask, Quarto, Docker, AWS, Rahti, GitHub Actions
+<strong>Tech Stack:</strong> R, Quarto, Python, SQL, Flask, Javascript, Docker, AWS, Supercomputing environments, GitHub Actions, LAMP & MERN stacks
 
 </p>
 
