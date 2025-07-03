@@ -10,6 +10,4 @@ In this post, I walk through how I used [Quarto](https://quarto.org), [Tailwind 
 
 Start by installing Quarto and initializing your website:
 
-```bash
-quarto create-project mysite --type website
-cd mysite
+\`\`\`bash quarto create-project mysite --type website cd mysite
