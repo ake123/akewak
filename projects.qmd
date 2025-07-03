@@ -5,11 +5,16 @@ format: html
 
 ## Selected Projects
 
-### 📚 Exploring Finnish Literature  
-Using Finna + Fennica APIs to analyze trends in Finnish publishing from 1488–today.
+Coming Soon .......
 
-### 🦠 Microbiome AI Modeling  
-Spatiotemporal graph learning for antimicrobial resistance gene tracking.
+<!-- ### 📚 Exploring Finnish Literature -->
 
-### 📊 Harmonization Tools  
-Tools for survey data comparison and integration using DDI-compliant structures.
+<!-- Using Finna + Fennica APIs to analyze trends in Finnish publishing from 1488--today. -->
+
+<!-- ### 🦠 Microbiome AI Modeling -->
+
+<!-- Spatiotemporal graph learning for antimicrobial resistance gene tracking. -->
+
+<!-- ### 📊 Harmonization Tools -->
+
+<!-- Tools for survey data comparison and integration using DDI-compliant structures. -->
