@@ -1,0 +1,27 @@
+---
+title: "Publications"
+format: html
+listing:
+  contents: posts
+  type: default
+  sort: "date desc"
+---
+
+## **Articles**
+
+- **iSEEtree**: *Interactive explorer for hierarchical data*  
+  Benedetti G, Seraidarian E, Pralas T, Jeba A, Borman T & Lahti L.  
+  *Bioinformatics Advances*, 2025.  
+  DOI: [10.1093/bioadv/vbaf107](https://doi.org/10.1093/bioadv/vbaf107)
+
+- **LimROTS**: *A hybrid method integrating empirical bayes and reproducibility-optimized statistics for robust analysis of proteomics data*  
+  Mostafa A, Jeba A, Lahti L & Coffey E.  
+  *bioRxiv*, 2025.  
+  DOI: [10.1101/2025.02.06.636801](https://doi.org/10.1101/2025.02.06.636801)
+
+
+## **Thesis**
+
+- Digital Image Processing and Image Restoration, 2011
+
+- Using Principal Component Analysis to Determine Changes in Mechanical Properties

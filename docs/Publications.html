@@ -2,13 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.7.31">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-05-01">
 
-<title>Exploring Finnish Cultural Metadata with R and Finna API – Akewak Jeba</title>
+<title>Publications – Akewak Jeba</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,23 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-dda6bcf18c14475f7348b817eb15352b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-a14e3238c51140e99ccc48519b6ed9ce.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,13 +69,71 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <!-- styles/tailwind-header.html -->
 <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
      <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="../styles/custom.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="styles/custom.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -84,7 +143,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Akewak Jeba</span>
     </a>
   </div>
@@ -95,19 +154,23 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../projects.html"> 
+    <a class="nav-link active" href="./Publications.html" aria-current="page"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog.html"> 
+    <a class="nav-link" href="./blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../Resume.html"> 
+    <a class="nav-link" href="./Resume.html"> 
 <span class="menu-text">Resume</span></a>
   </li>  
 </ul>
@@ -121,33 +184,29 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#articles" id="toc-articles" class="nav-link active" data-scroll-target="#articles"><strong>Articles</strong></a></li>
+  <li><a href="#thesis" id="toc-thesis" class="nav-link" data-scroll-target="#thesis"><strong>Thesis</strong></a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Exploring Finnish Cultural Metadata with R and Finna API</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">r</div>
-    <div class="quarto-category">cultural-heritage</div>
-    <div class="quarto-category">finna</div>
-  </div>
-  </div>
+<h1 class="title">Publications</h1>
+</div>
 
 
 
 <div class="quarto-title-meta">
 
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">May 1, 2025</p>
-    </div>
-  </div>
   
     
   </div>
@@ -157,18 +216,135 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>The <a href="https://www.finna.fi/">Finna API</a> gives access to rich cultural metadata from Finnish libraries and museums.</p>
-<p>Using the <code>finna</code> R package, I queried metadata for:</p>
+<section id="articles" class="level2">
+<h2 class="anchored" data-anchor-id="articles"><strong>Articles</strong></h2>
 <ul>
-<li>Books on the microbiome</li>
-<li>Music archives</li>
-<li>Local history collections</li>
+<li><p><strong>iSEEtree</strong>: <em>Interactive explorer for hierarchical data</em><br>
+Benedetti G, Seraidarian E, Pralas T, Jeba A, Borman T &amp; Lahti L.<br>
+<em>Bioinformatics Advances</em>, 2025.<br>
+DOI: <a href="https://doi.org/10.1093/bioadv/vbaf107">10.1093/bioadv/vbaf107</a></p></li>
+<li><p><strong>LimROTS</strong>: <em>A hybrid method integrating empirical bayes and reproducibility-optimized statistics for robust analysis of proteomics data</em><br>
+Mostafa A, Jeba A, Lahti L &amp; Coffey E.<br>
+<em>bioRxiv</em>, 2025.<br>
+DOI: <a href="https://doi.org/10.1101/2025.02.06.636801">10.1101/2025.02.06.636801</a></p></li>
 </ul>
-<p>Combining <code>finna::search_finna()</code> with tidyverse tools made it easy to visualize and analyze trends.</p>
+</section>
+<section id="thesis" class="level2">
+<h2 class="anchored" data-anchor-id="thesis"><strong>Thesis</strong></h2>
+<ul>
+<li><p>Digital Image Processing and Image Restoration, 2011</p></li>
+<li><p>Using Principal Component Analysis to Determine Changes in Mechanical Properties</p></li>
+</ul>
 
 
 
-</main> <!-- /main -->
+</section>
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="UiUyQ2N1bHR1cmFsLWhlcml0YWdlJTJDZmlubmElMkNCaWJsb2dyYXBoaWMlMjBkYXRhc2NpZW5jZQ==" data-listing-date-sort="1751490000000" data-listing-file-modified-sort="1752152179650" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="358">
+<div class="thumbnail"><a href="./posts/Bibliographic_Data_Science.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/Bibliographic_Data_Science.html" class="no-external">Tracing the Evolution of Knowledge Through Bibliographic Data Science</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/Bibliographic_Data_Science.html" class="no-external">
+The transformation of European book culture between 1500 and 1800 offers a remarkable window into the evolution of knowledge, language, and public discourse. Our ongoing…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/Bibliographic_Data_Science.html" class="no-external">
+<div class="listing-date">
+Jul 3, 2025
+</div>
+<div class="listing-author">
+Akewak Jeba
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="ciUyQ2N1bHR1cmFsLWhlcml0YWdlJTJDZmlubmE=" data-listing-date-sort="1748898000000" data-listing-file-modified-sort="1752152179650" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="199">
+<div class="thumbnail"><a href="./posts/LimROTS.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/LimROTS.html" class="no-external">LimROTS: A New Tool for Reliable Differential Expression Analysis in Proteomics</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/LimROTS.html" class="no-external">
+Differential expression analysis is at the heart of modern omics research, helping scientists pinpoint proteins or genes that distinguish one condition from another, such as…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/LimROTS.html" class="no-external">
+<div class="listing-date">
+Jun 3, 2025
+</div>
+<div class="listing-author">
+Akewak Jeba
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="ZUNvbW1lcmNlJTJDRHJ1cGFsJTJDV2ViJTIwRGV2ZWxvcG1lbnQ=" data-listing-date-sort="1746219600000" data-listing-file-modified-sort="1752152179650" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="452">
+<div class="thumbnail"><a href="./posts/eCommerce.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/eCommerce.html" class="no-external">Building the Foundation for Our eCommerce Platform</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/eCommerce.html" class="no-external">
+<p>A behind-the-scenes look at our scalable, flexible eCommerce project</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/eCommerce.html" class="no-external">
+<div class="listing-date">
+May 3, 2025
+</div>
+<div class="listing-author">
+Akewak Jeba
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="bWljcm9iaW9tZSUyQ21hY2hpbmUtbGVhcm5pbmclMkNncmFwaA==" data-listing-date-sort="1745701200000" data-listing-file-modified-sort="1752152179650" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
+<div class="thumbnail"><a href="./posts/microbiome-graph-learning.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/microbiome-graph-learning.html" class="no-external">Graph Learning for Microbiome Research</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/microbiome-graph-learning.html" class="no-external">
+Can we model microbial interactions as graphs? Absolutely.
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/microbiome-graph-learning.html" class="no-external">
+<div class="listing-date">
+Apr 27, 2025
+</div>
+<div class="listing-author">
+Akewak Jeba
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -241,7 +417,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/ake123\.github\.io\/akewak\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
