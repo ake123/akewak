@@ -11,10 +11,10 @@
   {
     "listing": "/Publications.html",
     "items": [
-      "/contact.html",
       "/Resume.html",
-      "/projects.html",
+      "/contact.html",
       "/index.html",
+      "/projects.html",
       "/blog.html",
       "/posts/Bibliographic_Data_Science.html",
       "/posts/LimROTS.html",
