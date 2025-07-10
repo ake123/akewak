@@ -11,6 +11,11 @@
   {
     "listing": "/Publications.html",
     "items": [
+      "/Resume.html",
+      "/contact.html",
+      "/index.html",
+      "/projects.html",
+      "/blog.html",
       "/posts/Bibliographic_Data_Science.html",
       "/posts/LimROTS.html",
       "/posts/eCommerce.html",
