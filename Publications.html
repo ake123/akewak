@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -69,69 +67,11 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <!-- styles/tailwind-header.html -->
 <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
      <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles/custom.css">
 </head>
@@ -237,209 +177,9 @@ DOI: <a href="https://doi.org/10.1093/bioadv/vbaf107">10.1093/bioadv/vbaf107</a>
 </ul>
 
 
-
 </section>
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1752154068949" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
-<div class="thumbnail"><a href="./Resume.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./Resume.html" class="no-external">CV</a>
-</h3>
-<div class="delink listing-description"><a href="./Resume.html" class="no-external">
-<embed src="cv/akewak-jeba-cv.pdf" style="width:100.0%" height="900">
-</a></div>
-</div>
-<div class="metadata">
-<a href="./Resume.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1752154068955" data-listing-reading-time-sort="1" data-listing-word-count-sort="10">
-<div class="thumbnail"><a href="./contact.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./contact.html" class="no-external">Contact</a>
-</h3>
-<div class="delink listing-description"><a href="./contact.html" class="no-external">
-You can reach me at: akewak@example.com
-</a></div>
-</div>
-<div class="metadata">
-<a href="./contact.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-listing-file-modified-sort="1752154068964" data-listing-reading-time-sort="2" data-listing-word-count-sort="228">
-<div class="thumbnail"><a href="./index.html" class="no-external">
-
-<img loading="lazy" src="./images/ake.jpeg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./index.html" class="no-external">Akewak Jeba</a>
-</h3>
-<div class="delink listing-description"><a href="./index.html" class="no-external">
-```{=html}
-</a></div>
-</div>
-<div class="metadata">
-<a href="./index.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-listing-file-modified-sort="1752154068964" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
-<div class="thumbnail"><a href="./projects.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./projects.html" class="no-external">Projects</a>
-</h3>
-<div class="delink listing-description"><a href="./projects.html" class="no-external">
-Coming Soon …….
-</a></div>
-</div>
-<div class="metadata">
-<a href="./projects.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-listing-file-modified-sort="1752154068955" data-listing-reading-time-sort="1" data-listing-word-count-sort="9">
-<div class="thumbnail"><a href="./blog.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./blog.html" class="no-external">Blog</a>
-</h3>
-<div class="delink listing-description"><a href="./blog.html" class="no-external">
-Welcome to my blog. Here are my latest posts:
-</a></div>
-</div>
-<div class="metadata">
-<a href="./blog.html" class="no-external">
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="UiUyQ2N1bHR1cmFsLWhlcml0YWdlJTJDZmlubmElMkNCaWJsb2dyYXBoaWMlMjBkYXRhc2NpZW5jZQ==" data-listing-date-sort="1751500800000" data-listing-file-modified-sort="1752154068964" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="358">
-<div class="thumbnail"><a href="./posts/Bibliographic_Data_Science.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/Bibliographic_Data_Science.html" class="no-external">Tracing the Evolution of Knowledge Through Bibliographic Data Science</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/Bibliographic_Data_Science.html" class="no-external">
-The transformation of European book culture between 1500 and 1800 offers a remarkable window into the evolution of knowledge, language, and public discourse. Our ongoing…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/Bibliographic_Data_Science.html" class="no-external">
-<div class="listing-date">
-Jul 3, 2025
-</div>
-<div class="listing-author">
-Akewak Jeba
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="ciUyQ2N1bHR1cmFsLWhlcml0YWdlJTJDZmlubmE=" data-listing-date-sort="1748908800000" data-listing-file-modified-sort="1752154068964" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="199">
-<div class="thumbnail"><a href="./posts/LimROTS.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/LimROTS.html" class="no-external">LimROTS: A New Tool for Reliable Differential Expression Analysis in Proteomics</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/LimROTS.html" class="no-external">
-Differential expression analysis is at the heart of modern omics research, helping scientists pinpoint proteins or genes that distinguish one condition from another, such as…
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/LimROTS.html" class="no-external">
-<div class="listing-date">
-Jun 3, 2025
-</div>
-<div class="listing-author">
-Akewak Jeba
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-categories="ZUNvbW1lcmNlJTJDRHJ1cGFsJTJDV2ViJTIwRGV2ZWxvcG1lbnQ=" data-listing-date-sort="1746230400000" data-listing-file-modified-sort="1752154068964" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="452">
-<div class="thumbnail"><a href="./posts/eCommerce.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/eCommerce.html" class="no-external">Building the Foundation for Our eCommerce Platform</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/eCommerce.html" class="no-external">
-<p>A behind-the-scenes look at our scalable, flexible eCommerce project</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/eCommerce.html" class="no-external">
-<div class="listing-date">
-May 3, 2025
-</div>
-<div class="listing-author">
-Akewak Jeba
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="8" data-categories="bWljcm9iaW9tZSUyQ21hY2hpbmUtbGVhcm5pbmclMkNncmFwaA==" data-listing-date-sort="1745712000000" data-listing-file-modified-sort="1752154068964" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
-<div class="thumbnail"><a href="./posts/microbiome-graph-learning.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/microbiome-graph-learning.html" class="no-external">Graph Learning for Microbiome Research</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/microbiome-graph-learning.html" class="no-external">
-Can we model microbial interactions as graphs? Absolutely.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/microbiome-graph-learning.html" class="no-external">
-<div class="listing-date">
-Apr 27, 2025
-</div>
-<div class="listing-author">
-Akewak Jeba
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
