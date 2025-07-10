@@ -14,6 +14,34 @@
     "text": "```{=html}\n\n\n👋 Hello, I’m Akewak Jeba\n\n\nA data scientist, open science advocate, and tool builder working on multidisciplinary data science research spanning from microbiome to digital humanities. With a background in computer science and a passion for reproducible science, I design and develop software tools that help uncover meaning from complex data.\n\n\n🌍 What I’m working on\n\n\n\nProject researcher at University of Turku, with the Turku Data Science Group.\n\n\nAuthor and maintainer of the finna R package for cultural heritage metadata.\n\n\nContributor to the Miaverse microbiome analysis suite.\n\n\nWorking on the Fennica and Finna and OpenMuse projects (bibliographic and music projects).\n\n\n\n\n🛠️ Tools & Technologies\n\n\nI work with technologies like R, Python, Docker, Flask, Quarto,cloud and HPC tools like CSC’s Rahti, Allas, AWS and google cloud. Whether modeling microbial networks or building APIs for cultural metadata, I enjoy bridging science, software, and creativity.\n\n\nTech Stack: R, Quarto, Python, SQL, Flask, Javascript, Docker, AWS, Supercomputing environments, GitHub Actions, LAMP & MERN stacks\n\n\n📬 Want to learn more?\n\n\nExplore my projects, read my blog, or get in touch!"
   },
   {
+    "objectID": "posts/LimROTS.html",
+    "href": "posts/LimROTS.html",
+    "title": "LimROTS: A New Tool for Reliable Differential Expression Analysis in Proteomics",
+    "section": "",
+    "text": "Differential expression analysis is at the heart of modern omics research, helping scientists pinpoint proteins or genes that distinguish one condition from another, such as disease versus healthy states. However, analyzing complex proteomics datasets remains challenging, especially when experiments include technical variation, batch effects, or biological covariates like age and sex.\nTo address these challenges, our team developed LimROTS, an R/Bioconductor package that combines two powerful statistical approaches: the flexible linear modeling and empirical Bayes method from limma, and the reproducibility-optimized ranking from ROTS. This hybrid design allows LimROTS to handle complex experimental designs while improving the reliability of differential expression results.\nIn rigorous benchmarking using 21 gold standard proteomics datasets, LimROTS consistently outperformed widely used tools such as limma, ROTS, MSstats, DEqMS, DEP, SAM, ANOVA, and t-tests. We also tested LimROTS on real-world clinical data from Alzheimer’s disease patients. The method identified biologically meaningful protein changes with improved precision, even in the presence of technical variability.\nLimROTS is openly available through Bioconductor and is designed to integrate seamlessly with existing omics workflows. Its ability to manage complex designs and enhance reproducibility makes it a promising tool not only for proteomics but potentially for transcriptomics and metabolomics as well.\nExplore LimROTS at: https://bioconductor.org/packages/LimROTS"
+  },
+  {
+    "objectID": "posts/Bibliographic_Data_Science.html",
+    "href": "posts/Bibliographic_Data_Science.html",
+    "title": "Tracing the Evolution of Knowledge Through Bibliographic Data Science",
+    "section": "",
+    "text": "The transformation of European book culture between 1500 and 1800 offers a remarkable window into the evolution of knowledge, language, and public discourse. Our ongoing research addresses this transformation by combining large-scale bibliographic metadata with systematic data analysis, building upon national bibliographies and extensive catalog collections.\nAt the heart of this work lies the concept of bibliographic data science: applying reproducible, quantitative methods to understand long-term publishing trends. By integrating millions of records from national libraries—including the Finnish and Swedish bibliographies, the English Short-Title Catalogue (ESTC), and the Heritage of the Printed Book Database—we are creating an unprecedented foundation for historical research across Europe.\nThe scale of this project requires meticulous harmonisation of metadata, from standardising publication places and document formats to enriching missing information with external sources. This process enables researchers to trace the spread of publishing centres, the rise of vernacular languages, and material aspects such as book formats or paper consumption.\nFor example, our studies reveal how Finnish book production, which began modestly in Turku in 1640, expanded steadily during the Grand Duchy era under Russian rule. Similarly, we observe the significant role of octavo-format books in the 18th century, reflecting broader shifts toward portability and access to printed material. These developments were not isolated—they unfolded alongside major political and cultural changes, such as the introduction of freedom of print in Sweden (1766) or the foundation of universities across the region.\nBeyond quantifying publication trends, our research addresses structural challenges in the bibliographical landscape. National bibliographies have traditionally operated within fragmented standards and cataloguing practices. By promoting open data, systematic quality monitoring, and shared analytical tools, we aim to create a more integrated, collaborative infrastructure that benefits both historical research and cultural heritage preservation.\nThis work contributes to the broader discussion on how digital resources, when handled with careful methodological control, can illuminate overlooked historical processes. It complements more qualitative scholarship by providing large-scale, verifiable perspectives on knowledge production—whether in early modern Europe or future global research efforts.\nFor more information, see publications from the Helsinki Computational History Group or the collaborative work within DARIAH’s Bibliodata Working Group, which continues to advance shared agendas for research infrastructures and public data stakeholders."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "You can reach me at: akewak@example.com\nOr message me via LinkedIn"
+  },
+  {
+    "objectID": "posts/microbiome-graph-learning.html",
+    "href": "posts/microbiome-graph-learning.html",
+    "title": "Graph Learning for Microbiome Research",
+    "section": "",
+    "text": "Can we model microbial interactions as graphs? Absolutely.\nIn this post, I explore the idea of using Graph Neural Networks (GNNs) to study microbiome dynamics.\n\nNodes: microbial taxa\nEdges: co-occurrence or correlation\nFeatures: abundance, function, location\n\nUsing libraries like torch and igraph, this can reveal community structure and functional roles."
+  },
+  {
     "objectID": "posts/eCommerce.html",
     "href": "posts/eCommerce.html",
     "title": "Building the Foundation for Our eCommerce Platform",
@@ -56,11 +84,18 @@
     "text": "This project reflects our team’s commitment to delivering high-quality, tailored eCommerce solutions that adapt to real-world needs.\nStay tuned for more updates as we bring this platform to life.\nInterested in collaborating or sharing feedback? Don’t hesitate to reach out!"
   },
   {
-    "objectID": "posts/Bibliographic_Data_Science.html",
-    "href": "posts/Bibliographic_Data_Science.html",
-    "title": "Tracing the Evolution of Knowledge Through Bibliographic Data Science",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
     "section": "",
-    "text": "The transformation of European book culture between 1500 and 1800 offers a remarkable window into the evolution of knowledge, language, and public discourse. Our ongoing research addresses this transformation by combining large-scale bibliographic metadata with systematic data analysis, building upon national bibliographies and extensive catalog collections.\nAt the heart of this work lies the concept of bibliographic data science: applying reproducible, quantitative methods to understand long-term publishing trends. By integrating millions of records from national libraries—including the Finnish and Swedish bibliographies, the English Short-Title Catalogue (ESTC), and the Heritage of the Printed Book Database—we are creating an unprecedented foundation for historical research across Europe.\nThe scale of this project requires meticulous harmonisation of metadata, from standardising publication places and document formats to enriching missing information with external sources. This process enables researchers to trace the spread of publishing centres, the rise of vernacular languages, and material aspects such as book formats or paper consumption.\nFor example, our studies reveal how Finnish book production, which began modestly in Turku in 1640, expanded steadily during the Grand Duchy era under Russian rule. Similarly, we observe the significant role of octavo-format books in the 18th century, reflecting broader shifts toward portability and access to printed material. These developments were not isolated—they unfolded alongside major political and cultural changes, such as the introduction of freedom of print in Sweden (1766) or the foundation of universities across the region.\nBeyond quantifying publication trends, our research addresses structural challenges in the bibliographical landscape. National bibliographies have traditionally operated within fragmented standards and cataloguing practices. By promoting open data, systematic quality monitoring, and shared analytical tools, we aim to create a more integrated, collaborative infrastructure that benefits both historical research and cultural heritage preservation.\nThis work contributes to the broader discussion on how digital resources, when handled with careful methodological control, can illuminate overlooked historical processes. It complements more qualitative scholarship by providing large-scale, verifiable perspectives on knowledge production—whether in early modern Europe or future global research efforts.\nFor more information, see publications from the Helsinki Computational History Group or the collaborative work within DARIAH’s Bibliodata Working Group, which continues to advance shared agendas for research infrastructures and public data stakeholders."
+    "text": "Coming Soon ……."
+  },
+  {
+    "objectID": "projects.html#selected-projects",
+    "href": "projects.html#selected-projects",
+    "title": "Projects",
+    "section": "",
+    "text": "Coming Soon ……."
   },
   {
     "objectID": "Publications.html",
@@ -82,40 +117,5 @@
     "title": "Publications",
     "section": "Thesis",
     "text": "Thesis\n\nUsing Principal Component Analysis to Determine Changes in Mechanical Properties, 2021\nDigital Image Processing and Image Restoration, 2011"
-  },
-  {
-    "objectID": "posts/microbiome-graph-learning.html",
-    "href": "posts/microbiome-graph-learning.html",
-    "title": "Graph Learning for Microbiome Research",
-    "section": "",
-    "text": "Can we model microbial interactions as graphs? Absolutely.\nIn this post, I explore the idea of using Graph Neural Networks (GNNs) to study microbiome dynamics.\n\nNodes: microbial taxa\nEdges: co-occurrence or correlation\nFeatures: abundance, function, location\n\nUsing libraries like torch and igraph, this can reveal community structure and functional roles."
-  },
-  {
-    "objectID": "posts/LimROTS.html",
-    "href": "posts/LimROTS.html",
-    "title": "LimROTS: A New Tool for Reliable Differential Expression Analysis in Proteomics",
-    "section": "",
-    "text": "Differential expression analysis is at the heart of modern omics research, helping scientists pinpoint proteins or genes that distinguish one condition from another, such as disease versus healthy states. However, analyzing complex proteomics datasets remains challenging, especially when experiments include technical variation, batch effects, or biological covariates like age and sex.\nTo address these challenges, our team developed LimROTS, an R/Bioconductor package that combines two powerful statistical approaches: the flexible linear modeling and empirical Bayes method from limma, and the reproducibility-optimized ranking from ROTS. This hybrid design allows LimROTS to handle complex experimental designs while improving the reliability of differential expression results.\nIn rigorous benchmarking using 21 gold standard proteomics datasets, LimROTS consistently outperformed widely used tools such as limma, ROTS, MSstats, DEqMS, DEP, SAM, ANOVA, and t-tests. We also tested LimROTS on real-world clinical data from Alzheimer’s disease patients. The method identified biologically meaningful protein changes with improved precision, even in the presence of technical variability.\nLimROTS is openly available through Bioconductor and is designed to integrate seamlessly with existing omics workflows. Its ability to manage complex designs and enhance reproducibility makes it a promising tool not only for proteomics but potentially for transcriptomics and metabolomics as well.\nExplore LimROTS at: https://bioconductor.org/packages/LimROTS"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
-    "section": "",
-    "text": "You can reach me at: akewak@example.com\nOr message me via LinkedIn"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Coming Soon ……."
-  },
-  {
-    "objectID": "projects.html#selected-projects",
-    "href": "projects.html#selected-projects",
-    "title": "Projects",
-    "section": "",
-    "text": "Coming Soon ……."
   }
 ]
