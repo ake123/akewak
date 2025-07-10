@@ -22,7 +22,7 @@ listing:
 
 ## **Thesis**
 
-- Using Principal Component Analysis to Determine Changes in Mechanical Properties
+- Using Principal Component Analysis to Determine Changes in Mechanical Properties, 2021
 
 - Digital Image Processing and Image Restoration, 2011
 
